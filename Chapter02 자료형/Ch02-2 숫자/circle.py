@@ -9,4 +9,4 @@ r = int(input())
 
 area, circumference = circle(r)
 
-print(area, circumference)
+print('반지름이 {}인 원의 넓이는 {}, 원주는 {}입니다.'.format(r,area, circumference))
