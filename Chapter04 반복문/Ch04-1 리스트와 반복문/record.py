@@ -3,17 +3,16 @@ l = len(records)
 max_, min_ = -1, 9999
 total_ = 0
 
-
 for score in records:
     total_ += score
     if score > max_:
         max_ = score
     if score < min_:
         min_ = score
-        
-avg_ = total_ / l
 
-print('최고점 :', max_)
-print('최저점 :', min_)
-print('총점 :', total_)
-print('평균 :', round(avg_,2))
+avg_ = total_
+
+print('최고점 : ',  max_)
+print('최저점 : ',  min_)
+print('합계 : ',  total_)
+print('평균 : ',  round(avg_,2))
